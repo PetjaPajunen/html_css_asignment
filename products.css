@@ -1,0 +1,59 @@
+body{
+    background: radial-gradient(
+		circle 382px at 50% 50.2%,
+		rgb(31, 33, 112) 0.1%,
+		rgba(3, 1, 50, 1) 100.2%
+	);
+	font-family: monospace;
+}
+
+
+.product_frame_box{
+    margin: auto;
+    width: 65%;
+}
+
+
+.product_main_frame{
+    height: 95%;
+	padding-top: 10px;
+    background-image: url("assets/product_shop_background_filler.jpg");
+	border: solid black
+}
+
+.product_main_frame{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#shop_alingment_box{
+	width: 1130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#shop_top_image{
+	width: 1130px;
+	height: 250px;
+}
+
+#shop_big_image_text_box{
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.products {
+	display: flex;
+	gap: 1.2rem;
+}
+
+.product-card {
+	background-color: rgb(68, 68, 68);
+	padding: 0.5rem 1rem;
+}
+
+.product-card span {
+	color: darkgrey;
+}

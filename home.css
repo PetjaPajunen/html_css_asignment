@@ -1,0 +1,43 @@
+body{
+    background: radial-gradient(
+		circle 382px at 50% 50.2%,
+		rgb(31, 33, 112) 0.1%,
+		rgba(3, 1, 50, 1) 100.2%
+	);
+    font-family: monospace;
+}
+
+
+.home_frame_box{
+    margin: auto;
+    width: 65%;
+}
+
+
+.home_main_frame{
+    height: 700px;
+    background-image: url("assets/home_background_image_filler.jpg");
+    border: solid #000000;
+}
+
+.home_company_image_text_box{
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+}
+
+#home_company_name{
+    font-size: 43px;
+}
+
+.home_big_company_image{
+    width: 955px;
+    height: 350px;
+}
+
+#home_main_text{
+     font-size: 16px;
+}

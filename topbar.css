@@ -1,0 +1,31 @@
+.top_bar{
+    background-color: rgb(55, 0, 184);
+    border-top: solid black;
+    border-left: solid black;
+    height: 80px;
+    overflow: hidden;
+}
+
+.top_bar a{
+    border-right: solid black;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.top_bar a:hover{
+    background-color: gray;
+    color: #595757;
+}
+
+.top_bar_img{
+    width: 280px;
+    height: 80px;
+}
+
+.home_button{
+    border-left: solid black;
+}
