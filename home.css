@@ -16,7 +16,7 @@ body{
 
 .home_main_frame{
     height: 700px;
-    background-image: url("assets/home_background_image_filler.jpg");
+    background: url("assets/home_background_image_filler.jpg") repeat;
     border: solid #000000;
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 #home_company_name{
-    font-size: 43px;
+    font-size: 34px;
 }
 
 .home_big_company_image{

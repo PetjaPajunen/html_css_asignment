@@ -5,30 +5,33 @@
     <link rel="stylesheet" href="topbar.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacts of Company X - Contact informatiom of company X - Metropolia.fi</title>
 </head>
 <body>
+    <a href="#main_content" class="skip-link">Skip to content</a>
     <div class="contact_main_frame_box">
         <div class="top_bar">
-            <img class="top_bar_img" src="assets/top_bar_filler_image.jpg" alt="website_logo">     <!-- Logo image borrowed from https://pixabay.com/vectors/logo-logotype-sphere-summer-sun-2150297/-->
-            <a href="contact.html">Contact</a>
-            <a href="products.html">Product</a>
-            <a class="home_button" href="home.html">Home</a>
+            <img class="top_bar_img" src="assets/top_bar_filler_image.jpg" alt="">     <!-- Logo image borrowed from https://pixabay.com/vectors/logo-logotype-sphere-summer-sun-2150297/-->
+            <a class="active" id="contact" href="contact.html">Contact</a>
+            <a id="product" href="products.html">Product</a>
+            <a id="home" href="home.html">Home</a>
         </div>
         <div class="contact_frame_box">
             <div class="text_alignment">
-                <p id="title_text" class="text_alignment"><b>Contact us</b></p>
+
+                <h1 id="main_content" class="text_alignment"> Contact us </h1>
+                
                 <p id="contact_info" class="text_alignment">
-                Visit us at: <br />
-                Company X <br />
-                Karaportti 2 <br />
-                02340 ESPOO <br />
-                Finland <br />
-                Email: <b>info@metropolia.fi</b> <br />
-                Phone: <b>+358 (0)401231233</b>
+                Visit us at: <br>
+                Company X <br>
+                Karaportti 2 <br>
+                02340 ESPOO <br>
+                Finland <br>
+                Email: <strong>info@metropolia.fi</strong> <br>
+                Phone: <strong>+358 (0)401231233</strong>
                 </p>
             </div>
-            <img id="map_image" class="image_alignment" src="assets/map_image.png" alt="Image of map">
+            <img id="map_image" class="image_alignment" src="assets/map_image.png" alt="">
         </div>
     </div>
 </body>

@@ -17,7 +17,7 @@ body{
 .product_main_frame{
     height: 95%;
 	padding-top: 10px;
-    background-image: url("assets/product_shop_background_filler.jpg");
+   	background-color: #808080;
 	border: solid black
 }
 
@@ -50,10 +50,14 @@ body{
 }
 
 .product-card {
-	background-color: rgb(68, 68, 68);
+	background-color: #acacac;
 	padding: 0.5rem 1rem;
 }
 
 .product-card span {
-	color: darkgrey;
+	color: #000000;
+}
+
+#work_around{
+	color: #808080;
 }
